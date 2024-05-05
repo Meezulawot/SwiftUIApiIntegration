@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22B097EA-9F09-40FB-83E9-DB15F63020E5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72DABC56-3B9F-462E-8FF4-06E798D05FD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CatAPIProject/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20F48E38-C080-4A74-B586-2F16862181E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CatAPIProject/networking/BreedFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchAllBreeds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20F48E38-C080-4A74-B586-2F16862181E8 - 52aa78a576f2b7fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;CatAPIProject.Breed&gt;, CatAPIProject.APIError&gt;) -&gt; () in CatAPIProject.BreedFetcherViewModel.fetchAllBreeds() -&gt; ()"
+                  moduleName = "CatAPIProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meezulawot/SwiftUIProjects/CatAPIProject/CatAPIProject/networking/BreedFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "20F48E38-C080-4A74-B586-2F16862181E8 - 52f0559e4b93be0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;CatAPIProject.Breed&gt;, CatAPIProject.APIError&gt;) -&gt; () in CatAPIProject.BreedFetcherViewModel.fetchAllBreeds() -&gt; ()"
+                  moduleName = "CatAPIProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meezulawot/SwiftUIProjects/CatAPIProject/CatAPIProject/networking/BreedFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

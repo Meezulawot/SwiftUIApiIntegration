@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83D5F8F10FB2C4D9B73C1111 /* Pods_CatAPIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC6C49D11186A0DB1B012AC /* Pods_CatAPIProject.framework */; };
 		9B7D208A2AD3C69100E82A91 /* CatAPIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20892AD3C69100E82A91 /* CatAPIProjectApp.swift */; };
 		9B7D208C2AD3C69100E82A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D208B2AD3C69100E82A91 /* ContentView.swift */; };
 		9B7D208E2AD3C69200E82A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7D208D2AD3C69200E82A91 /* Assets.xcassets */; };
 		9B7D20912AD3C69200E82A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7D20902AD3C69200E82A91 /* Preview Assets.xcassets */; };
+		9B7D209B2AD3C6E600E82A91 /* CatBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D209A2AD3C6E600E82A91 /* CatBreed.swift */; };
+		9B7D209D2AD3D9B900E82A91 /* BreedFetcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D209C2AD3D9B900E82A91 /* BreedFetcherViewModel.swift */; };
+		9B7D209F2AD3DCF300E82A91 /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D209E2AD3DCF300E82A91 /* BreedListView.swift */; };
+		9B7D20A12AD3DD0700E82A91 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20A02AD3DD0700E82A91 /* ErrorView.swift */; };
+		9B7D20A32AD3DD1300E82A91 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20A22AD3DD1300E82A91 /* LoadingView.swift */; };
+		9B7D20A52AD3E19700E82A91 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20A42AD3E19700E82A91 /* APIError.swift */; };
+		9B7D20A72AD3E95B00E82A91 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20A62AD3E95B00E82A91 /* APIService.swift */; };
+		9B7D20AB2AD5015900E82A91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20AA2AD5015900E82A91 /* NetworkManager.swift */; };
+		9B7D20AD2AD501F500E82A91 /* CatsBreedAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20AC2AD501F500E82A91 /* CatsBreedAPI.swift */; };
+		9B7D20AF2AD53A8300E82A91 /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20AE2AD53A8300E82A91 /* BreedRow.swift */; };
+		9B7D20B12AD53A8C00E82A91 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20B02AD53A8C00E82A91 /* BreedDetailView.swift */; };
+		9B7D20B52AD6645A00E82A91 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20B42AD6645A00E82A91 /* ImageLoader.swift */; };
+		9B7D20B72AD66A4900E82A91 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D20B62AD66A4900E82A91 /* ImageLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483C770A4519F6E99CA582F1 /* Pods-CatAPIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAPIProject.debug.xcconfig"; path = "Target Support Files/Pods-CatAPIProject/Pods-CatAPIProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC6C49D11186A0DB1B012AC /* Pods_CatAPIProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatAPIProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1D213EA95359E299B7FF9D /* Pods-CatAPIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAPIProject.release.xcconfig"; path = "Target Support Files/Pods-CatAPIProject/Pods-CatAPIProject.release.xcconfig"; sourceTree = "<group>"; };
 		9B7D20862AD3C69100E82A91 /* CatAPIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAPIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7D20892AD3C69100E82A91 /* CatAPIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPIProjectApp.swift; sourceTree = "<group>"; };
 		9B7D208B2AD3C69100E82A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B7D208D2AD3C69200E82A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7D20902AD3C69200E82A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B7D209A2AD3C6E600E82A91 /* CatBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreed.swift; sourceTree = "<group>"; };
+		9B7D209C2AD3D9B900E82A91 /* BreedFetcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcherViewModel.swift; sourceTree = "<group>"; };
+		9B7D209E2AD3DCF300E82A91 /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
+		9B7D20A02AD3DD0700E82A91 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		9B7D20A22AD3DD1300E82A91 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9B7D20A42AD3E19700E82A91 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		9B7D20A62AD3E95B00E82A91 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9B7D20AA2AD5015900E82A91 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9B7D20AC2AD501F500E82A91 /* CatsBreedAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsBreedAPI.swift; sourceTree = "<group>"; };
+		9B7D20AE2AD53A8300E82A91 /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRow.swift; sourceTree = "<group>"; };
+		9B7D20B02AD53A8C00E82A91 /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
+		9B7D20B42AD6645A00E82A91 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9B7D20B62AD66A4900E82A91 /* ImageLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +56,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D5F8F10FB2C4D9B73C1111 /* Pods_CatAPIProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164C65AD7B1C7059B7F3BA42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6C49D11186A0DB1B012AC /* Pods_CatAPIProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2EBB712AF209C700EE52D0 /* APIModule */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D20AC2AD501F500E82A91 /* CatsBreedAPI.swift */,
+			);
+			path = APIModule;
+			sourceTree = "<group>";
+		};
+		9B2EBB722AF209F900EE52D0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D20972AD3C6A400E82A91 /* model */,
+				9B2EBB742AF20A9300EE52D0 /* viewmodel */,
+				9B7D209E2AD3DCF300E82A91 /* BreedListView.swift */,
+				9B7D20A02AD3DD0700E82A91 /* ErrorView.swift */,
+				9B7D20A22AD3DD1300E82A91 /* LoadingView.swift */,
+				9B7D20AE2AD53A8300E82A91 /* BreedRow.swift */,
+				9B7D20992AD3C6CF00E82A91 /* DetailView */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		9B2EBB732AF20A4700EE52D0 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				9B2EBB722AF209F900EE52D0 /* Dashboard */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		9B2EBB742AF20A9300EE52D0 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D209C2AD3D9B900E82A91 /* BreedFetcherViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 		9B7D207D2AD3C69100E82A91 = {
 			isa = PBXGroup;
 			children = (
 				9B7D20882AD3C69100E82A91 /* CatAPIProject */,
 				9B7D20872AD3C69100E82A91 /* Products */,
+				C9AF49A61CA09F1700D3D972 /* Pods */,
+				164C65AD7B1C7059B7F3BA42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +130,9 @@
 		9B7D20882AD3C69100E82A91 /* CatAPIProject */ = {
 			isa = PBXGroup;
 			children = (
+				9B2EBB732AF20A4700EE52D0 /* modules */,
+				9B7D20B22AD6586800E82A91 /* Helpers */,
+				9B7D20982AD3C6AC00E82A91 /* networking */,
 				9B7D20892AD3C69100E82A91 /* CatAPIProjectApp.swift */,
 				9B7D208B2AD3C69100E82A91 /* ContentView.swift */,
 				9B7D208D2AD3C69200E82A91 /* Assets.xcassets */,
@@ -67,6 +149,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9B7D20972AD3C6A400E82A91 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D209A2AD3C6E600E82A91 /* CatBreed.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9B7D20982AD3C6AC00E82A91 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				9B2EBB712AF209C700EE52D0 /* APIModule */,
+				9B7D20A42AD3E19700E82A91 /* APIError.swift */,
+				9B7D20A62AD3E95B00E82A91 /* APIService.swift */,
+				9B7D20AA2AD5015900E82A91 /* NetworkManager.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		9B7D20992AD3C6CF00E82A91 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D20B02AD53A8C00E82A91 /* BreedDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		9B7D20B22AD6586800E82A91 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D20B32AD6587200E82A91 /* ImageLoader */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9B7D20B32AD6587200E82A91 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D20B62AD66A4900E82A91 /* ImageLoadingView.swift */,
+				9B7D20B42AD6645A00E82A91 /* ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		C9AF49A61CA09F1700D3D972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				483C770A4519F6E99CA582F1 /* Pods-CatAPIProject.debug.xcconfig */,
+				5A1D213EA95359E299B7FF9D /* Pods-CatAPIProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B7D20942AD3C69200E82A91 /* Build configuration list for PBXNativeTarget "CatAPIProject" */;
 			buildPhases = (
+				6B4DF8DF88F53640B9A52988 /* [CP] Check Pods Manifest.lock */,
 				9B7D20822AD3C69100E82A91 /* Sources */,
 				9B7D20832AD3C69100E82A91 /* Frameworks */,
 				9B7D20842AD3C69100E82A91 /* Resources */,
+				AEC9027C3876BDB2DA1603D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +269,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B4DF8DF88F53640B9A52988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatAPIProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEC9027C3876BDB2DA1603D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatAPIProject/Pods-CatAPIProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatAPIProject/Pods-CatAPIProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatAPIProject/Pods-CatAPIProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B7D20822AD3C69100E82A91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7D209D2AD3D9B900E82A91 /* BreedFetcherViewModel.swift in Sources */,
+				9B7D20A12AD3DD0700E82A91 /* ErrorView.swift in Sources */,
+				9B7D20B52AD6645A00E82A91 /* ImageLoader.swift in Sources */,
+				9B7D209F2AD3DCF300E82A91 /* BreedListView.swift in Sources */,
+				9B7D209B2AD3C6E600E82A91 /* CatBreed.swift in Sources */,
+				9B7D20AD2AD501F500E82A91 /* CatsBreedAPI.swift in Sources */,
+				9B7D20AB2AD5015900E82A91 /* NetworkManager.swift in Sources */,
 				9B7D208C2AD3C69100E82A91 /* ContentView.swift in Sources */,
+				9B7D20A52AD3E19700E82A91 /* APIError.swift in Sources */,
+				9B7D20A32AD3DD1300E82A91 /* LoadingView.swift in Sources */,
+				9B7D20A72AD3E95B00E82A91 /* APIService.swift in Sources */,
+				9B7D20B12AD53A8C00E82A91 /* BreedDetailView.swift in Sources */,
+				9B7D20B72AD66A4900E82A91 /* ImageLoadingView.swift in Sources */,
 				9B7D208A2AD3C69100E82A91 /* CatAPIProjectApp.swift in Sources */,
+				9B7D20AF2AD53A8300E82A91 /* BreedRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +453,7 @@
 		};
 		9B7D20952AD3C69200E82A91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483C770A4519F6E99CA582F1 /* Pods-CatAPIProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +467,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +483,7 @@
 		};
 		9B7D20962AD3C69200E82A91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1D213EA95359E299B7FF9D /* Pods-CatAPIProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +497,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
